@@ -43,7 +43,7 @@ try {
         offers[i]['merchants'] = [closestMerchant];
     }
 
-    // Step 4 and 5: Find closest merchant, two offers, different categories
+    // Step 4: Find closest merchant, two offers, different categories
     const resultCategories = [];
     const resultOffers = [];
     const sortedOffers = offers.sort((a, b) => {
@@ -63,7 +63,7 @@ try {
         }
     }
 
-    // Step 6: Save filtered offers to output.json
+    // Step 5: Save filtered offers to output.json
     fs.writeFileSync(outputFilePath, JSON.stringify({
         offers: resultOffers,
     }, null, 2), { encoding: "utf8", flag: "w" });
