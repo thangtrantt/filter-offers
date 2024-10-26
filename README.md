@@ -20,11 +20,13 @@
 3. Run the Application:
 - After installing the dependencies, run the application with the following command:
    ```sh
-   no-de index.js 2019-12-25 
+   node index.js 2019-12-25 
    ```
 4. Check and review Output:
+
 - The application will process the input data, filter offers, and save the result in the output.json file.
 - Check the terminal for any output or error messages.
 - Open the generated output.json file to review the filtered offers.
+
 ### Other
 - You can run the Application in Github Codespace. Check out the Codespace docs: [Codespace](https://github.com/features/codespaces).
