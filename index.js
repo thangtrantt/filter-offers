@@ -1,5 +1,5 @@
 const fs = require('fs');
-
+ 
 const inputFilePath = 'input.json';
 const outputFilePath = 'output.json';
 const allowCategories = [1, 2, 4];
